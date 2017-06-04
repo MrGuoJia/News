@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.jia.news.Activity.Activivty.MainActivity">
+    tools:context="com.example.jia.news.demo.activivty.MainActivity">
     <LinearLayout
         android:layout_marginTop="1dp"
         android:layout_marginBottom="5dp"
@@ -41,10 +41,66 @@
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginTop="10dp"
         android:layout_weight="1"
         android:background="#ffffff"
         app:tabGravity="fill"
         app:tabMode="fixed" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#CCCCFF"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="头条"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/tv_myTop"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="军事"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/tv_myArmy"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="天气"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:id="@+id/tv_myWeather"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="笑话"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/tv_myJoker"
+            />
+    </LinearLayout>
 </LinearLayout>

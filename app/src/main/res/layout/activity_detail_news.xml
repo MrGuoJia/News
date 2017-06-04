@@ -6,7 +6,7 @@
     xmlns:aPP="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:id="@+id/drawer_layout"
-    tools:context="com.example.jia.news.Activity.Activivty.DetailNewsActivity">
+    tools:context="com.example.jia.news.demo.activivty.DetailNewsActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"

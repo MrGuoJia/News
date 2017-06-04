@@ -2,12 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-   >
+    >
+
     <android.support.v4.widget.SwipeRefreshLayout
-        android:id="@+id/swipe_refresh"
+        android:id="@+id/swipe_refresh_joke"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -15,10 +16,9 @@
         <android.support.v7.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/fragment_recyclerView"
+            android:id="@+id/fragment_recyclerView_joke"
             />
 
     </android.support.v4.widget.SwipeRefreshLayout>
-
 </LinearLayout>
-<!-- tools:context="com.example.jia.news.demo.Activivty.PageFragmentActivity"-->
+    <!--tools:context="com.example.jia.news.demo.Activivty.JokeFragmentActivity"-->
